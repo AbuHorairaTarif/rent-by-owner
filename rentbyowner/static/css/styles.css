@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: auto;
+}
+
+nav {
+    background-color: #013573;
+
+}
+
+.navbar-brand {
+    border: 0px solid white;
+    margin-left: 10px;
+    
+
+}
+
+.navbar-toggler-icon {
+    color: cyan;
+}
+
+.nav-link{
+    color: #fff;
+    font-weight: bold;
+    padding: 2.5rem 1rem ;
+    /* border: 1px solid white; */
+
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: cyan;
+}
+
+.title {
+    color: #013573;
+}
+
+.btn-category{
+    color: #013573;
+    background-color: #fff;
+}
