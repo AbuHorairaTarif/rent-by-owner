@@ -1,6 +1,7 @@
 <nav class="navbar navbar-expand-md">
     <div class="container-fluid">
-    <a class="navbar-brand" href="#"> <img src="https://static.rentbyowner.com/fa1eeed78042f188cf8bc13b2e6e4fcf898e2e18/static/images/sites/rentbyowner.com/header_logo.svg" alt="logo" width="182" height="26"></a>
+    <a class="navbar-brand" href="#">
+    <img src="https://static.rentbyowner.com/fa1eeed78042f188cf8bc13b2e6e4fcf898e2e18/static/images/sites/rentbyowner.com/header_logo.svg" alt="logo" width="182" height="26"/></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"><i class="fa fa-navicon" aria-hidden="true"></i></span>
         </button>

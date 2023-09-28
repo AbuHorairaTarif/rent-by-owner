@@ -33,11 +33,164 @@ nav {
     color: cyan;
 }
 
+.breadcrumb-custom {
+    font-size: 0.90rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 .title {
+    
+    font-weight: bold;
     color: #013573;
+    margin-bottom: 1rem;
 }
 
 .btn-category{
     color: #013573;
     background-color: #fff;
 }
+
+.btn-custom-filter {
+    /* background-color: wheat;  */
+    color: #013573;
+    font-size: 0.75rem;
+    border-color: transparent;
+    box-shadow: 0 4px 3px rgba(0,0,0,.15),0 0 3px rgba(0,0,0,.15),0 0 1px rgba(0,0,0,.5);
+}
+
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #013573;
+    border-color: #013573;
+}
+
+.sort-by {
+    color: #013573;
+    font-weight: bold;
+}
+
+.sort-by > select {
+    color: #013573;
+}
+
+.form-select-border-color {
+    border: 2px solid #013573;
+}
+
+/* Card-item for location, hotel search */
+
+
+.img-card {
+    position: relative;
+  }
+  
+ .card .btn-new {
+    position: absolute;
+    top: 10px; 
+    /* left: 10px; */
+    background-color:  #013573;
+    border-color:  #013573;
+    opacity: 0.9;
+    color: #fff;
+    font-weight: bold;
+    font-size: 0.75rem;
+  }
+
+.card .btn-money{
+    position: absolute;
+    bottom: 10px; 
+    left: 10px;     
+    color: rgb(15, 2, 15);
+    background-color: #fff;
+    opacity: 0.9;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+
+.card .btn-love{
+    position: absolute;
+    top: 10px; 
+    right: 50px;
+    width: 35px;
+    height: 35px;
+    font-weight: bold;
+    font-size: 0.75rem;
+    text-align: center;
+    line-height: 18px;
+    background-color: rgba(57,59,68,.4);
+    opacity: 0.9;
+    color: #fff;
+    border: 1px solid rgba(222,222,222,.4);
+    border-radius: 50%;
+}
+
+/* .btn-love {
+    color: red;
+} */
+
+.card .btn-map{
+    position: absolute;
+    top: 10px; 
+    right: 10px; 
+    width: 35px;
+    height: 35px;
+    font-weight: bold;
+    font-size: 0.75rem;
+    text-align: center;
+    line-height: 18px;
+    background-color: rgba(57,59,68,.4);
+    opacity: 0.9;
+    color: #fff;
+    border: 1px solid rgba(222,222,222,.4);
+    border-radius: 50%;
+    
+    
+}
+
+
+
+.img-card img{
+    height: 250px;
+    width: 100%;
+}
+.card-text {
+    position: relative;
+}
+
+.card-text .type-category {
+    position: absolute;
+    right: 5px;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.amenities {
+    font-size: 0.8rem;
+}
+
+.location-text {
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: #013573;
+}
+
+  .card  .logo-img {
+    position: absolute;
+    left: 15px;
+    bottom: 10px;
+  }
+
+  .card .btn-view-availability {
+    position: absolute;
+    background-color: #00cd92;
+    color: #fff;
+    font-weight: bold;
+    border-color: #00cd92;
+    bottom: 10px;
+    right: 10px;
+    /* padding: 2px 5px; */
+  }
