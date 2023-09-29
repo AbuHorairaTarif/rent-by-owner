@@ -65,6 +65,33 @@ nav {
     /* padding: 30px; */
 }
 
+
+/* date-picker */
+.cursor-pointer {
+    color: #013573;
+    font-weight: bold;
+    
+}
+
+.t-dates {
+    display: flex !important;
+    align-items: center;
+    gap: 4px;
+    /* font-weight: 400; */
+}
+
+.t-year-check-in, .t-year-check-out {
+    display: none;
+}
+
+.t-month-check-in, .t-month-check-out {
+    order: 1;
+}
+
+.t-day-check-in, .t-day-check-out {
+    order: 2;
+}
+
 /* refine-search-related --------------------*/
 
 .breadcrumb-custom {

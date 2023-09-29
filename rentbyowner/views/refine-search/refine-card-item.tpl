@@ -20,7 +20,7 @@
                       <span class="col text-right text-end">
                             <small class="type-category">Apartment</small>
                           </span>
-                      <h6 class="card-title">Two bedroom apartment, close to Ctg airport</h6>
+                     <a href="/property"><h6 class="card-title">Two bedroom apartment, close to Ctg airport</h6></a> 
                       <div class="col-auto amenities">
                             <span class="mt-2"><small><i class="fa-solid fa-circle"></i></small> View  <small><i class="fa-solid fa-circle"></i></small> Child Friendly</span>
                           </div>

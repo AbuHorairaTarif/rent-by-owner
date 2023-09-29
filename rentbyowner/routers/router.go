@@ -9,4 +9,5 @@ import (
 func init() {
 	beego.Router("/", &controllers.MainController{})
 	beego.Router("/refine", &controllers.RefineSearch{}, "get:GetRefineSearch")
+	beego.Router("/property", &controllers.PropertyDetail{}, "get:GetPropertyDetail")
 }

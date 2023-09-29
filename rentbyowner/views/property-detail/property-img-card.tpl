@@ -30,13 +30,23 @@
                             Check Apartment Availability
                             
                         </div>
-                        <form class="mx-2" method="">
+                        <form class="mx-2" method="" action="">
+                            {{/* 
+
+
                             <div class="row p-1">
                                 <input class="form-control" type="date" name="start-date">
                             </div>
                             
                             <div class="row p-1">
                                 <input class="form-control" type="date" name="end-date">
+                            </div> 
+                            */}}
+                            
+
+                            <div class="t-datepicker cursor-pointer">
+                                <div class="t-check-in bg-white"></div>
+                                <div class="t-check-out bg-white"></div>
                             </div>
                             <div class="row">
                                 <small class="alert alert-success">Place is available</small>

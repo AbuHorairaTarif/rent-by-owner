@@ -14,6 +14,11 @@ type RefineSearch struct {
 	Checkin_date string
 }
 
+type PropertyDetail struct {
+	beego.Controller
+	Location string
+}
+
 func (c *MainController) Get() {
 	c.Data["Website"] = "beego.vip"
 	c.Data["Email"] = "astaxie@gmail.com"
@@ -26,6 +31,12 @@ func (c *RefineSearch) GetRefineSearch() {
 		Location:     "Dhaka,Bangladesh",
 		Checkin_date: "02-10-2023",
 	}
-
 	c.TplName = "refine.tpl"
+}
+
+func (c *PropertyDetail) GetPropertyDetail() {
+	c.Data["property"] = &PropertyDetail{
+		Location: "Ctg, BD",
+	}
+	c.TplName = "property-detail.tpl"
 }
