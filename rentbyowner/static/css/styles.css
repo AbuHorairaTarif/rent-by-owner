@@ -33,6 +33,40 @@ nav {
     color: cyan;
 }
 
+/* Homepage with search --------------------*/
+
+/* .wrapper{
+    padding: 10px;
+    background-color: #013573;
+    width: 700px;
+} */
+
+.form-search-intro {
+    background-image: url("https://i.pinimg.com/736x/49/75/d9/4975d9b870d186097c0e8180b94a8a2a.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+    opacity: .9;
+    position: absolute;
+    
+    /* background-size: 1000px; */
+}
+
+/* .search-homepage {
+    background-color: #013573;
+} */
+
+.form-centering {
+    position: relative;
+    top: 200px;
+    /* height: 400px; */
+    
+    /* padding: 30px; */
+}
+
+/* refine-search-related --------------------*/
+
 .breadcrumb-custom {
     font-size: 0.90rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -193,4 +227,21 @@ nav {
     bottom: 10px;
     right: 10px;
     /* padding: 2px 5px; */
+  }
+
+/* property details page */
+
+  .rent-icon-color {
+    color: #013573;
+  }
+
+  .property-card-img-lg{
+    height:1000px;
+    width: auto;
+  }
+
+  .property-card-img {
+    height: auto;
+    margin-right: 3px;
+    margin-bottom: 3px;
   }
