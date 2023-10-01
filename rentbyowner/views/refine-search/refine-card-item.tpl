@@ -1,6 +1,7 @@
 <div class="container-fluid mb-3 mt-5 ">
   
           <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 bg-card mx-2">
+           {{ range.refine.Data }}
               <div class="col">
                 <div class="card h-90 shadow">
                   <div class="img-card">
@@ -20,7 +21,7 @@
                       <span class="col text-right text-end">
                             <small class="type-category">Apartment</small>
                           </span>
-                     <a href="/property"><h6 class="card-title">Two bedroom apartment, close to Ctg airport</h6></a> 
+                     <a href="/property"><h6 class="card-title">{{.Location}}</h6></a> 
                       <div class="col-auto amenities">
                             <span class="mt-2"><small><i class="fa-solid fa-circle"></i></small> View  <small><i class="fa-solid fa-circle"></i></small> Child Friendly</span>
                           </div>
@@ -41,7 +42,8 @@
                     </p>
                   </div>
                 </div>
-              </div>
+                
+              </div>{{end}}
 
               <div class="col">
                 <div class="card h-90 shadow">

@@ -26,6 +26,7 @@ func (c *MainController) Get() {
 }
 
 func (c *RefineSearch) GetRefineSearch() {
+
 	c.Data["refine"] = &RefineSearch{
 
 		Location:     "Dhaka,Bangladesh",
